@@ -11,6 +11,9 @@ var app = express();
 
 app.configure(function(){
   app.set('port', process.env.PORT || 3000);
+  if(process.env.BASIC_AUTH_USER) {
+    app.use(express.basicAuth(process.env.BASIC_AUTH_USER, process.env.BASIC_AUTH_PASS));
+  }
   app.use(express.static(path.join(__dirname, 'public')));
 });
 
