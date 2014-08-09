@@ -1,0 +1,7 @@
+{
+  "name": "node-static-site",
+  "env": {
+    "BASIC_AUTH_USER": "",
+    "BASIC_AUTH_PASS": ""
+  }
+}
