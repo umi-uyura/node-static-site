@@ -1,5 +1,8 @@
 Node Static Site 
 ====================
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
  * Node.jsを使った静的サイトのテンプレート
  * public以下にソースを配置
  * heroku等にデプロイして使うといいと思う
